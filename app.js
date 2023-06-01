@@ -7,5 +7,4 @@ const handleQuotes = () => {
 const handleQuotes2 = data => {
   const displayQuotes = document.getElementById("quotes");
   displayQuotes.innerText = data.quote;
-  console.log(data);
 };
